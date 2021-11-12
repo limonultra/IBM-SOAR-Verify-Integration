@@ -1,0 +1,13 @@
+[resilient.circuits.components]
+FunctFnFindUsersFunctionComponent = definitive_verify2.components.funct_fn_find_users:FunctionComponent
+FunctFnResetPasswordVerifyFunctionComponent = definitive_verify2.components.funct_fn_reset_password_verify:FunctionComponent
+
+[resilient.circuits.configsection]
+gen_config = definitive_verify2.util.config:config_section_data
+
+[resilient.circuits.customize]
+customize = definitive_verify2.util.customize:customization_data
+
+[resilient.circuits.selftest]
+selftest = definitive_verify2.util.selftest:selftest_function
+
